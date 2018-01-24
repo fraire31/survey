@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+	font-family: 'Exo', sans-serif;
+}
+
+/* TOP NEON GREEN BORDER*/
+div.head{
+	width: 90%;
+	margin: 0 auto;
+	height: 12px;
+	background-color: #85EB2F;
+}
+
+/*SURVEY INTRODUCTION*/
+div.surveyIntro{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+div.surveyIntro > p {
+	text-align: center;
+
+}
+
+div.surveyIntro > button{
+	border: 2px solid #85EB2F;
+	color: #09BA12;
+	background-color: transparent;
+	padding: 8px 12px;
+	font-weight: 600;
+	margin-top: 40px;
+	position: relative;
+	transform: translateX(-50%);
+	left:50%;
+}
+
+div.surveyIntro > button:hover{
+	background-color:#09BA12;
+	color: white;
+}
+
+table{
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+table, tr ,td{
+	border: 1px dotted black;
+}
